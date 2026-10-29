@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+      <div class="wrapper" id="form">
+      <!-- Sign in form -->
+      <div id="sign-in-box">
+        <h3 class="title">welcome back</h3>
+        <div class="input-box">
+          <input type="email" id="email" required />
+          <label>email addresses</label>
+        </div>
+        <div class="input-box">
+          <input type="password" id="number" required />
+          <label>password</label>
+        </div>
+        <button class="btn">sign in</button>
+        <!-- toggle-text -->
+        <div class="toggle-text">
+          don't have an account? <a onclick="toggleForm()">sign up</a>
+        </div>
+      </div>
+      <!-- Sign Up Form -->
+      <div id="sign-up-box" class="sign-up-box">
+        <h3 class="title">create account</h3>
+        <div class="input-box">
+          <input type="text" required />
+          <label>full name</label>
+        </div>
+        <div class="input-box">
+          <input type="email" required />
+          <label>email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" required />
+          <label>create password</label>
+        </div>
+        <button class="btn">register</button>
+        <div class="toggle-text">
+          already have an account? <a onclick="toggleForm()">sign in</a>
+        </div>
+      </div>
+    </div>
+    <div id="myCard">
+
+   
+    
+</div>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
